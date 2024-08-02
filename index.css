@@ -1,0 +1,145 @@
+@keyframes fadeIn {from {opacity: 0;}
+to {opacity: 1;}
+}
+
+.elemento {
+    animation: fadeIn 0.7s ease-in-out;
+}
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+
+}
+
+.clicavel:hover {
+    transform: scale(1.1);
+  }
+
+body {
+    background-color: rgb(16, 167, 16);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    animation: fadeIn 0.5s ease-in-out;
+
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+
+}
+
+header h1 {
+    color: #333;
+
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+
+}
+
+main {
+    padding: 20px;
+    text-align: l;
+
+}
+
+section {
+    margin-bottom: 100px;
+
+}
+
+footer {
+    background-color: rgb(14, 31, 12);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+
+}
+
+.topo {
+    position: relative;
+    background-image: url('https://imagens-cdn.canalrural.com.br/2023/11/Agrinho.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 850px;
+    color: white;
+    text-align: center;
+
+}
+
+.topo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    z-index: 1;
+    pointer-events: none;
+
+
+}
+.topo h1 {
+    font-size: 2.5em;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 2.2em;
+
+}
+
+p {font-size: 18px;
+  }
+
+h2 {font-size: 30px;
+  }
+
+h3{font-size: 20px;
+  }
+
+  .clicavel {
+    display: inline-block;
+    margin-right: 15px;
+}
